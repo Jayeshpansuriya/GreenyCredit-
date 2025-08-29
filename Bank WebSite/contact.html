@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Greeny Credit Co. Op. Society Ltd.</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Geeny Credit Co-Operative Bank LTD</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="loans.html">Loans</a></li>
+                    <li><a href="deposits.html">Deposits</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact Hero Section -->
+    <section class="page-hero contact-hero">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>We're here to help with all your banking needs</p>
+        </div>
+    </section>
+
+    <!-- Contact Information Section -->
+    <section class="contact-info">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Visit Us</h3>
+                    <p>123 Banking Street<br>Financial District<br>City, State 12345</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>Call Us</h3>
+                    <p>Main: +1 234 567 8900<br>Toll-Free: 1-800-123-4567<br>Fax: +1 234 567 8901</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email Us</h3>
+                    <p>General Inquiries: info@geenycredit.com<br>Customer Support: support@geenycredit.com<br>Loan Inquiries: loans@geenycredit.com</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Banking Hours</h3>
+                    <p>Monday - Friday: 9:00 AM - 5:00 PM<br>Saturday: 10:00 AM - 2:00 PM<br>Sunday: Closed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="form-container">
+                    <h2>Send Us a Message</h2>
+                    <p>Have questions or need assistance? Fill out the form below, and we'll get back to you as soon as possible.</p>
+                    
+                    <form id="inquiry-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name*</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address*</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="inquiry-type">Inquiry Type*</label>
+                            <select id="inquiry-type" name="inquiry-type" required>
+                                <option value="">Select an option</option>
+                                <option value="personal-loan">Personal Loan</option>
+                                <option value="gold-loan">Gold Loan</option>
+                                <option value="vehicle-loan">Vehicle Loan</option>
+                                <option value="business-loan">Business Loan</option>
+                                <option value="fixed-deposit">Fixed Deposit</option>
+                                <option value="recurring-deposit">Recurring Deposit</option>
+                                <option value="general">General Inquiry</option>
+                            </select>
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="message">Message*</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <div class="form-group full-width">
+                            <div class="checkbox-group">
+                                <input type="checkbox" id="consent" name="consent" required>
+                                <label for="consent">I consent to Greeny Credit Co. Op. Society Ltd. collecting and processing my personal data in accordance with the Privacy Policy.</label>
+                            </div>
+                        </div>
+                        <div class="form-group full-width">
+                            <button type="submit" class="btn btn-primary">Submit Inquiry</button>
+                        </div>
+                    </form>
+                    <div id="form-success" class="form-success" style="display: none;">
+                        <i class="fas fa-check-circle"></i>
+                        <h3>Thank You!</h3>
+                        <p>Your inquiry has been submitted successfully. We'll get back to you shortly.</p>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <h2>Our Location</h2>
+                    <div class="map">
+                        <!-- Google Maps embed code -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.9258375758997!2d72.89828400000001!3d21.219529699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04f1d463b6e89%3A0xfea4cc10243cbbff!2sGreen%20Life%20Credit%20co%20op%20Society%20Limited!5e0!3m2!1sen!2sin!4v1625689961040!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Branch Locations Section -->
+    <section class="branch-locations">
+        <div class="container">
+            <h2 class="section-title">Our Branch Locations</h2>
+            <div class="branches-grid">
+                <div class="branch-card">
+                    <h3>Main Branch</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Banking Street, Financial District, City, State 12345</p>
+                    <p><i class="fas fa-phone"></i> +1 234 567 8900</p>
+                    <p><i class="fas fa-envelope"></i> main@geenycredit.com</p>
+                </div>
+                <div class="branch-card">
+                    <h3>North City Branch</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 456 North Avenue, North City, State 12346</p>
+                    <p><i class="fas fa-phone"></i> +1 234 567 8902</p>
+                    <p><i class="fas fa-envelope"></i> north@geenycredit.com</p>
+                </div>
+                <div class="branch-card">
+                    <h3>East City Branch</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 789 East Boulevard, East City, State 12347</p>
+                    <p><i class="fas fa-phone"></i> +1 234 567 8903</p>
+                    <p><i class="fas fa-envelope"></i> east@geenycredit.com</p>
+                </div>
+                <div class="branch-card">
+                    <h3>West City Branch</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 101 West Road, West City, State 12348</p>
+                    <p><i class="fas fa-phone"></i> +1 234 567 8904</p>
+                    <p><i class="fas fa-envelope"></i> west@geenycredit.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How do I apply for a loan?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You can apply for a loan by visiting any of our branches, filling out the contact form on this page, or calling our loan department at +1 234 567 8900. Our loan officers will guide you through the application process and required documentation.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What documents are required for opening a deposit account?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>To open a deposit account, you'll need to provide a valid ID proof (passport, driver's license, etc.), address proof, recent passport-sized photographs, and initial deposit amount. Additional documents may be required based on the type of account.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How can I check my account balance?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You can check your account balance through our mobile banking app, internet banking portal, by visiting any of our branches, or by calling our customer service helpline. We also offer SMS banking services for balance inquiries.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What is the interest rate for personal loans?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our personal loan interest rates start from 10.5% per annum. The exact rate depends on your credit score, income, loan amount, and tenure. Please contact our loan department for a personalized quote.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo" style="text-align: center;">
+                    <p>Your trusted financial partner</p>
+                    <h3 style="font-size: 1.8rem; margin-bottom: 0;">Greeny Credit</h3>
+                    <h4 style="font-size: 1.4rem; font-weight: normal; margin-top: 0;">Co. Op. Society Ltd.</h4>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="loans.html">Loans</a></li>
+                        <li><a href="deposits.html">Deposits</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Banking Street, Financial District</p>
+                    <p><i class="fas fa-phone"></i> +1 234 567 8900</p>
+                    <p><i class="fas fa-envelope"></i> info@geenycredit.com</p>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Greeny Credit Co. Op. Society Ltd. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
